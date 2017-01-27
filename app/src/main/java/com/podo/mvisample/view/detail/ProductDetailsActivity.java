@@ -21,29 +21,21 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.design.widget.CollapsingToolbarLayout;
-import android.support.design.widget.FloatingActionButton;
-import android.support.transition.TransitionManager;
 import android.support.v7.widget.Toolbar;
+import android.transition.TransitionManager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
 import com.hannesdorfmann.mosby3.mvi.MviActivity;
-import com.hannesdorfmann.mosby3.sample.mvi.R;
-import com.hannesdorfmann.mosby3.sample.mvi.SampleApplication;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.http.ProductBackendApi;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.interactor.details.ProductDetailsViewState;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.model.Product;
-import com.jakewharton.rxbinding.view.RxView;
+import com.podo.mvisample.SampleApplication;
+import com.podo.mvisample.businesslogic.interactor.details.ProductDetailsViewState;
+import com.podo.mvisample.businesslogic.model.Product;
 
 import java.util.Locale;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import hu.akarnokd.rxjava.interop.RxJavaInterop;
+
 import io.reactivex.Observable;
 import timber.log.Timber;
 

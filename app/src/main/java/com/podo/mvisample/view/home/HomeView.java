@@ -18,7 +18,7 @@
 package com.podo.mvisample.view.home;
 
 import com.hannesdorfmann.mosby3.mvp.MvpView;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.model.FeedItem;
+import com.podo.mvisample.businesslogic.model.FeedItem;
 
 import io.reactivex.Observable;
 
@@ -29,36 +29,36 @@ import io.reactivex.Observable;
  */
 public interface HomeView extends MvpView {
 
-  /**
-   * The intent to load the first page
-   *
-   * @return The emitted item boolean can be ignored because it is always true
-   */
-  public Observable<Boolean> loadFirstPageIntent();
+    /**
+     * The intent to load the first page
+     *
+     * @return The emitted item boolean can be ignored because it is always true
+     */
+    public Observable<Boolean> loadFirstPageIntent();
 
-  /**
-   * The intent to load the next page
-   *
-   * @return The emitted item boolean can be ignored because it is always true
-   */
-  public Observable<Boolean> loadNextPageIntent();
+    /**
+     * The intent to load the next page
+     *
+     * @return The emitted item boolean can be ignored because it is always true
+     */
+    public Observable<Boolean> loadNextPageIntent();
 
-  /**
-   * The intent to react on pull-to-refresh
-   *
-   * @return The emitted item boolean can be ignored because it is always true
-   */
-  public Observable<Boolean> pullToRefreshIntent();
+    /**
+     * The intent to react on pull-to-refresh
+     *
+     * @return The emitted item boolean can be ignored because it is always true
+     */
+    public Observable<Boolean> pullToRefreshIntent();
 
-  /**
-   * The intent to load more items from a given group
-   *
-   * @return Observable with the name of the group
-   */
-  public Observable<String> loadAllProductsFromCategoryIntent();
+    /**
+     * The intent to load more items from a given group
+     *
+     * @return Observable with the name of the group
+     */
+    public Observable<String> loadAllProductsFromCategoryIntent();
 
-  /**
-   * Renders the viewState
-   */
-  public void render(HomeViewState viewState);
+    /**
+     * Renders the viewState
+     */
+    public void render(HomeViewState viewState);
 }
