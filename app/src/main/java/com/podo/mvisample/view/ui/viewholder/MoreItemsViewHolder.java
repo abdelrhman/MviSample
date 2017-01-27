@@ -23,8 +23,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.hannesdorfmann.mosby3.sample.mvi.R;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.model.AdditionalItemsLoadable;
+
+import com.podo.mvisample.R;
+import com.podo.mvisample.businesslogic.model.AdditionalItemsLoadable;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -28,7 +28,7 @@ import android.widget.Toast;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegate;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegateCallback;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegateImpl;
-import com.hannesdorfmann.mosby3.sample.mvi.SampleApplication;
+import com.podo.mvisample.SampleApplication;
 
 import java.util.Locale;
 

@@ -25,8 +25,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 
 import com.hannesdorfmann.mosby3.mvi.layout.MviFrameLayout;
-import com.hannesdorfmann.mosby3.sample.mvi.R;
-import com.hannesdorfmann.mosby3.sample.mvi.SampleApplication;
+import com.podo.mvisample.R;
+import com.podo.mvisample.SampleApplication;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

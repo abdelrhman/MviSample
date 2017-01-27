@@ -21,7 +21,8 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 
-import com.hannesdorfmann.mosby3.sample.mvi.R;
+import com.podo.mvisample.R;
+
 
 /**
  * Simply shows a progress bar. This is typically used for pagination to indicate  that more items

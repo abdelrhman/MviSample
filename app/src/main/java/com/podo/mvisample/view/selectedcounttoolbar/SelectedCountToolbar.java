@@ -17,6 +17,7 @@
 
 package com.podo.mvisample.view.selectedcounttoolbar;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.os.Parcelable;
 import android.support.annotation.NonNull;
@@ -27,8 +28,8 @@ import android.view.View;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegate;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegateCallback;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegateImpl;
-import com.hannesdorfmann.mosby3.sample.mvi.R;
-import com.hannesdorfmann.mosby3.sample.mvi.SampleApplication;
+import com.podo.mvisample.R;
+import com.podo.mvisample.SampleApplication;
 
 import io.reactivex.Observable;
 import io.reactivex.subjects.PublishSubject;
@@ -76,6 +77,7 @@ public class SelectedCountToolbar extends Toolbar implements SelectedCountToolba
         .newSelectedCountToolbarPresenter();
   }
 
+  @SuppressLint("NewApi")
   @Override public void render(int selectedCount) {
     Timber.d("render %d selected items", selectedCount);
     if (selectedCount == 0) {

@@ -21,8 +21,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.model.MainMenuItem;
-import com.hannesdorfmann.mosby3.sample.mvi.view.ui.viewholder.MainMenuViewHolder;
+
+import com.podo.mvisample.businesslogic.model.MainMenuItem;
+import com.podo.mvisample.view.ui.viewholder.MainMenuViewHolder;
 
 import java.util.List;
 

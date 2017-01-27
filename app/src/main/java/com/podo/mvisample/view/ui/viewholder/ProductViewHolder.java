@@ -24,9 +24,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
-import com.hannesdorfmann.mosby3.sample.mvi.R;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.http.ProductBackendApi;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.model.Product;
+import com.podo.mvisample.R;
+import com.podo.mvisample.businesslogic.http.ProductBackendApi;
+import com.podo.mvisample.businesslogic.model.Product;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

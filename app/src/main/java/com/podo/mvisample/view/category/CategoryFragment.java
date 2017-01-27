@@ -28,12 +28,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.hannesdorfmann.mosby3.mvi.MviFragment;
-import com.hannesdorfmann.mosby3.sample.mvi.R;
-import com.hannesdorfmann.mosby3.sample.mvi.SampleApplication;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.model.Product;
-import com.hannesdorfmann.mosby3.sample.mvi.view.detail.ProductDetailsActivity;
-import com.hannesdorfmann.mosby3.sample.mvi.view.ui.GridSpacingItemDecoration;
-import com.hannesdorfmann.mosby3.sample.mvi.view.ui.viewholder.ProductViewHolder;
+import com.podo.mvisample.R;
+import com.podo.mvisample.SampleApplication;
+import com.podo.mvisample.businesslogic.model.Product;
+import com.podo.mvisample.view.detail.ProductDetailsActivity;
+import com.podo.mvisample.view.ui.GridSpacingItemDecoration;
+import com.podo.mvisample.view.ui.viewholder.ProductViewHolder;
 
 import java.util.List;
 

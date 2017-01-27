@@ -32,9 +32,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.hannesdorfmann.mosby3.mvi.MviFragment;
-import com.hannesdorfmann.mosby3.sample.mvi.R;
-import com.hannesdorfmann.mosby3.sample.mvi.SampleApplication;
-import com.hannesdorfmann.mosby3.sample.mvi.businesslogic.model.Product;
+import com.podo.mvisample.R;
+import com.podo.mvisample.SampleApplication;
+import com.podo.mvisample.businesslogic.model.Product;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

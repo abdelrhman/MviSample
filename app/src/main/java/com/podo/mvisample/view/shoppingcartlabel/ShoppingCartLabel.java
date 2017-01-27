@@ -26,7 +26,7 @@ import android.util.AttributeSet;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegate;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegateCallback;
 import com.hannesdorfmann.mosby3.ViewGroupMviDelegateImpl;
-import com.hannesdorfmann.mosby3.sample.mvi.SampleApplication;
+import com.podo.mvisample.SampleApplication;
 
 import io.reactivex.Observable;
 import timber.log.Timber;
